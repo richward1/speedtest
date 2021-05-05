@@ -32,7 +32,7 @@ Do not run without `-it`, this will cause the container to exit immediately, unl
 
 ### Run interactively with acceptance arguments
 
-You can override the entrypoint by adding `speedtest --accept-license --accept-gdpr` to the end of the run command. This will run the test automatically, and will not prompt for anything. The container will exit upon completion.
+You can override the entrypoint of the run command. This will run the test automatically, and will not prompt for anything. The container will exit upon completion.
 
 ```
 docker run -it --entrypoint speedtest richward/speedtest --accept-license --accept-gdpr
